@@ -1,0 +1,35 @@
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+  background-color: #ccc;
+  padding: 50px;
+}
+
+.progress {
+  display: flex;
+  justify-content: center;
+}
+
+.progress-bar {
+  width: 200px;
+  height: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+
+.bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: tomato;
+}
